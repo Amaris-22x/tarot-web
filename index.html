@@ -796,7 +796,7 @@
 
             // 3. 连接 AI 获取结果
             try {
-                const response = await fetch('http://localhost:3000/api/tarot/summary', {
+                const response = await fetch('https://tarot-backend-axoa.onrender.com/api/tarot/summary', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
